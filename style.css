@@ -1,0 +1,158 @@
+
+body {
+    background: -webkit-linear-gradient(left, #00dbff, #ff0000);
+    background: -moz-linear-gradient(left, #00dbff, #ff0000);
+    background: -ms-linear-gradient(left, #00dbff, #ff0000);
+    background: -o-linear-gradient(left, #00dbff, #ff0000);
+    background: linear-gradient(to right, #00dbff, #ff0000);
+    overflow-x: hidden;
+
+    
+}
+
+
+.logo{
+    height: 200px;
+    margin: 5% 80vh;
+}
+
+.input-names{
+    display: flex;
+    height: 30px;
+    margin-top: 80px;
+    margin-left: 20%;
+}
+
+.style-players-text{
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.send-names-players{
+    margin-left: 20px;
+    background-color: rgba(211,211,211, 0.3);
+}
+.send-names-players:hover{
+    background-color: rgba(211,211,211, 0.5);
+}
+.send-names-players:active{
+    transform: scale(0.9);
+}
+input[type = 'text']{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgba(211,211,211, 0.3);
+}
+
+.display-geral{
+    background-color: rgba(300, 200, 100, 0.1);
+    width: 30%;
+}
+
+.jogada-winner{
+    margin-right: 50px;    
+}
+
+header{
+    display: flex;
+    justify-content: center
+}
+
+
+.display-1{
+    display: block;
+}
+
+.display-2{
+    display: none;
+    margin-top: 5%;
+    justify-content: end;
+}
+.AllDivsForDisplay{
+    display: flex;
+    justify-content: center;
+}
+.quadroNumber-1{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+}
+.quadroNumber-2{
+    border: 1px solid black;
+    border-top: none;
+}
+.quadroNumber-3{
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+.quadroNumber-4{
+    border: 1px solid black;
+    border-left: none;
+}
+.quadroNumber-5{
+    border: 1px solid black;
+}
+.quadroNumber-6{
+    border: 1px solid black;
+    border-right:none;
+}
+.quadroNumber-7{
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+}
+.quadroNumber-8{
+    border: 1px solid black;
+    border-bottom: none;
+}
+.quadroNumber-9{
+    border: 1px solid black;
+    border-bottom: none;
+    border-right: none;
+}
+
+.li-score{
+    margin-left: -20px;
+}
+.Players{
+    list-style: none;
+    
+}
+.ul-pontos{
+    list-style: none;
+}
+.li-pontos{
+    margin-left: -20px;
+    display: flex;
+    justify-content: space-around;
+}
+.scoreBoard{
+    background-color: rgba(211,211,211, 0.1);
+    border:1px solid rgba(211,211,211, 0.1);;
+    width: 17%;
+    margin-left: 18%;
+    height: 100%;
+}
+.title-scoreBoard{
+    text-align: center;
+}
+.separateScoreName{
+    display: flex;
+    justify-content: space-around;
+}
+
+.quadrado{
+    height: 130px;
+    width: 130px;
+    max-width: 130px;
+    max-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    caret-color:transparent;
+}
